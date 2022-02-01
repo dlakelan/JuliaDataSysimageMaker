@@ -1,0 +1,6 @@
+#!/bin/sh
+
+SYSIMGPATH=/var/local/dlakelan/julia/sys_dataanalys.so
+
+julia --sysimage ${SYSIMGPATH} "$@"
+
